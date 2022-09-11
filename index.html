@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume</title>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+  <script src="js/script.js"></script>
+</head>
+<body>
+  <div id="wrap">
+    <div id="skip_nav">
+      <a href="#content">본문으로 바로가기</a>
+      <a href="#gnb">주메뉴 바로가기</a>
+    </div>
+    <header class="header">
+      <div class="header_top">
+        <div class="toggleMenu">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+      </div>
+      <div id="gnb" class="gnb">
+        <ul>
+          <li><a href="#section01">ABOUT</a></li>
+          <li><a href="#section02">SKILL</a></li>
+          <li><a href="#section03">CONFIGURE & LICENSE</a></li>
+          <li><a href="#section04">PROJECT</a></li>
+        </ul>
+      </div>
+    </header>
+    <main class="main">
+      <div id="content" class="content">
+        <nav class="section_nav">
+          <ul>
+              <li class="active"><a href="#section01"><span class="text">ABOUT</span></a></li>
+              <li><a href="#section02"><span class="text">SKILL</span></a></li>
+              <li><a href="#section03"><span class="text">CONFIGURE & LICENSE</span></a></li>
+              <li><a href="#section04"><span class="text">PROJECT</span></a></li>
+          </ul>
+        </nav>
+        <!-- section01 -->
+        <section id="section01" class="section section01">
+          <div class="text_box">
+            <h2 class="title">퍼블리셔 김민길</h2>
+            <span class="text">톱니바퀴처럼 팀의 보조자 역할을 하는 웹 퍼블리셔 김민길입니다.</span>
+          </div>
+        </section>
+        <!-- section01 -->
+        <!-- section02 -->
+        <section id="section02" class="section section02">
+          <div class="section_title">
+            <h2 class="title">SKILL</h2>
+          </div>
+          
+          <div class="grid-body">
+            <div class="image-grid">
+              <div class="title"><h1>Images</h1></div>
+              <div class="image-grid__item pos-1">
+                <img src="images/html5_BI.png" alt="">
+              </div>
+              <div class="image-grid__item pos-2">
+                <img src="images/css3_BI.png" alt="">
+              </div>
+              <div class="image-grid__item pos-3">
+                <img src="images/javascript_BI.png" alt="">
+              </div>
+              <div class="image-grid__item pos-4">
+                <img src="images/jquery_BI.png" alt="">
+              </div>
+              <div class="image-grid__item pos-5">
+                <img src="images/bootstrap_BI.png" alt="">
+              </div>
+              <div class="image-grid__item pos-6">
+                <img src="images/gulp_BI.svg" alt="">
+              </div>
+              <div class="image-grid__item pos-7">
+                <img src="images/vue_BI.png" alt="">
+              </div>
+              <div class="image-grid__item pos-8">
+                <img src="images/react_BI2.png" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="text_box">
+            <span class="text">HTML5</span>
+            <span class="text">CSS3</span>
+            <span class="text">Javascript</span>
+            <span class="text">jQuery</span>
+            <span class="text">Bootstrap</span>
+            <span class="text">Vue.js</span>
+            <span class="text">React.js</span>
+            <span class="text">Gulp</span>
+          </div>
+          
+        </section>
+        <!-- section02 -->
+
+        <!-- section03 -->
+        <section id="section03" class="section section03">
+          <div class="section_title">
+            <h2 class="title">CONFIGURE & LICENSE</h2>
+          </div>
+          <ul class="text_list">
+            <li class="text_area">
+              <div class="text_title">
+                <img src="images/icon01.png" alt="CONFIGURE">
+                <h3 class="title">CONFIGURE</h3>
+              </div>
+              <div class="text_box">
+                <span class="text">Github</span>
+                <span class="text">Confluence</span>
+                <span class="text">JIRA</span>
+                <span class="text">Zeplin</span>
+              </div>
+            </li>
+            <li class="text_area">
+              <div class="text_title">
+                <img src="images/icon02.png" alt="LICENSE">
+                <h3 class="title">LICENSE</h3>
+              </div>
+              <div class="text_box">
+                <span class="text">정보처리산업기사</span>
+                <span class="text">웹디자인기능사</span>
+                <span class="text">Excel Expert</span>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <!-- section03 -->
+        <!-- section04 -->
+        <section id="section04" class="section section04">
+          <div class="section_title">
+            <h2 class="title">PROJECT</h2>
+          </div>
+          <ul class="project_list">
+            <li>
+              <a href="https://brityworks.ai" target="_blank" title="새 창으로 열림">
+                <div class="project_area">
+                  <div class="text_box">
+                    <span class="date">2021.08 ~ 2021.10</span>
+                    <span class="title">삼성SDS brity works</span>
+                    <span class="text">Vue.js / Confluence / JIRA / Zeplin</span>
+                    <span class="text">Publisher 4명 / 기여도 25%</span>
+                  </div>
+                  <div class="img_box">
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="https://brityworks.ai" target="_blank" title="새 창으로 열림">
+                <div class="project_area">
+                  <div class="text_box">
+                    <span class="date">2021.10 ~ 2021.12</span>
+                    <span class="title">삼성SDS Brity RPA 웹쳇 고도화 작업</span>
+                    <span class="text">Vue.js / JIRA / Zeplin</span>
+                    <span class="text">Publisher 2명 / 기여도 80%</span>
+                    <span class="text">우측 하단 챗봇</span>
+                  </div>
+                  <div class="img_box">
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.samsungknox.com" target="_blank" title="새 창으로 열림">
+                <div class="project_area">
+                  <div class="text_box">
+                    <span class="date">2022.01 ~ 2022.09 ~ <mark class="keyword">진행중</mark></span>
+                    <span class="title">삼성SDS 사내인트라넷<br>Knox Portal 고도화 신규작업 및 운영</span>
+                    <span class="text">React.js / Gulp / JIRA / Zeplin</span>
+                    <span class="text">Publisher 6명 / 기여도 30%</span>
+                  </div>
+                  <div class="img_box">
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <div class="project_area">
+                <div class="text_box">
+                  <span class="date">2022.05 ~ 2022.08</span>
+                  <span class="title">웹 접근성 진단평가 정부기관 산하 홈페이지</span>
+                  <span class="text">업무 시간 외 웹 접근성 프로젝트 참여</span>
+                  <span class="text">30건 / 기여도 100%</span>
+                  <span class="text sm">국립장애인도서관, 해외문화홍보원, 코리아넷 등</span>
+                </div>
+                <div class="img_box">
+                </div>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <!-- section04 -->
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer_wrap">
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
